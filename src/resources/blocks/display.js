@@ -87,10 +87,10 @@ function register() {
         colour: categoryColor,
     }, (block) => {
         const TEXT1 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT2 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT3 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT4 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT5 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT2 = javascriptGenerator.valueToCode(block, 'TEXT2', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT3 = javascriptGenerator.valueToCode(block, 'TEXT3', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT4 = javascriptGenerator.valueToCode(block, 'TEXT4', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT5 = javascriptGenerator.valueToCode(block, 'TEXT5', javascriptGenerator.ORDER_ATOMIC);
         const code = `ModAPI.drawString({msg: ${TEXT1}, x: ${TEXT2}, y: ${TEXT3}, color: ${TEXT4}});`;
         return `${code}\n`;
     })
@@ -132,10 +132,10 @@ function register() {
         colour: categoryColor,
     }, (block) => {
         const TEXT1 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT2 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT3 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT4 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
-        const TEXT5 = javascriptGenerator.valueToCode(block, 'TEXT1', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT2 = javascriptGenerator.valueToCode(block, 'TEXT2', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT3 = javascriptGenerator.valueToCode(block, 'TEXT3', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT4 = javascriptGenerator.valueToCode(block, 'TEXT4', javascriptGenerator.ORDER_ATOMIC);
+        const TEXT5 = javascriptGenerator.valueToCode(block, 'TEXT5', javascriptGenerator.ORDER_ATOMIC);
         const code = `ModAPI.drawStringWithShadow({msg: ${TEXT1}, x: ${TEXT2}, y: ${TEXT3}, color: ${TEXT4}});`;
         return `${code}\n`;
     })
