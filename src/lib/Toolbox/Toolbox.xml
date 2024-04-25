@@ -179,6 +179,20 @@
                 </block>
             </value>
         </block>
+        <block type="display_drawstring">
+            <value name="TEXT1">
+                <block type="literals_string">
+                    <field name="STRING">hello world!</field>
+                </block>
+            </value>
+        </block>
+        <block type="display_drawstringwithshadow">
+            <value name="TEXT1">
+                <block type="literals_string">
+                    <field name="STRING">hello world!</field>
+                </block>
+            </value>
+        </block>
         <sep gap="48"></sep>
         <block type="display_currentscreen"/>
         <sep gap="48"></sep>
